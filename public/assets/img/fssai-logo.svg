@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40" fill="none">
+  <!-- FSSAI Logo Stylized Vector -->
+  <text x="6" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-style="italic" font-size="24" fill="#0E9F4F" letter-spacing="-1">fssai</text>
+  <circle cx="96" cy="14" r="3" fill="#D9993A" />
+  <circle cx="104" cy="18" r="4" fill="#0E9F4F" />
+  <circle cx="98" cy="24" r="2.5" fill="#1F4D2E" />
+</svg>

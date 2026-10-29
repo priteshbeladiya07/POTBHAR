@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" width="100%" height="100%" fill="none">
+  <!-- Warm cream illustration backdrop -->
+  <defs>
+    <linearGradient id="sareeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E27329"/>
+      <stop offset="100%" stop-color="#C55815"/>
+    </linearGradient>
+    <linearGradient id="manGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3D8554"/>
+      <stop offset="100%" stop-color="#26643A"/>
+    </linearGradient>
+    <linearGradient id="elderPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#80629A"/>
+      <stop offset="100%" stop-color="#5E4378"/>
+    </linearGradient>
+    <linearGradient id="manYellow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E6A838"/>
+      <stop offset="100%" stop-color="#C98921"/>
+    </linearGradient>
+    <linearGradient id="woodCrate" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#BC8A5F"/>
+      <stop offset="50%" stop-color="#A77448"/>
+      <stop offset="100%" stop-color="#8B5E34"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.08" flood-color="#3C280A"/>
+    </filter>
+  </defs>
+
+  <!-- Person 1: Indian Woman in Orange Saree (Left) -->
+  <g id="person1-woman" filter="url(#softShadow)">
+    <!-- Body & Saree -->
+    <path d="M120 490 C120 380 150 280 195 240 C220 280 230 350 240 490 Z" fill="url(#sareeGrad)" stroke="#1E1A0E" stroke-width="3" stroke-linecap="round"/>
+    <path d="M175 250 C190 310 160 410 135 490" stroke="#7E9F3D" stroke-width="12" stroke-linecap="round"/>
+    <!-- Arm reaching to vegetables -->
+    <path d="M190 260 C220 280 260 300 290 320" stroke="#B8734A" stroke-width="18" stroke-linecap="round"/>
+    <!-- Hands & Bowl -->
+    <ellipse cx="295" cy="325" rx="30" ry="14" fill="#C98921" stroke="#1E1A0E" stroke-width="2"/>
+    <circle cx="290" cy="320" r="8" fill="#E24A3B"/>
+    <circle cx="302" cy="322" r="7" fill="#E65100"/>
+    <!-- Head & Hair -->
+    <circle cx="195" cy="180" r="32" fill="#B8734A"/>
+    <path d="M170 175 C170 140 215 135 225 170 C225 195 200 205 175 195 Z" fill="#1E1A0E"/>
+    <circle cx="165" cy="190" r="14" fill="#1E1A0E"/> <!-- Bun -->
+    <circle cx="205" cy="182" r="2.5" fill="#C5221F"/> <!-- Bindi -->
+  </g>
+
+  <!-- Person 2: Man in Green Shirt with Wooden Crate (Center-Left) -->
+  <g id="person2-man-green" filter="url(#softShadow)">
+    <!-- Head -->
+    <circle cx="320" cy="145" r="34" fill="#A86840"/>
+    <path d="M295 135 C305 105 345 105 350 130 C350 145 330 155 300 145 Z" fill="#2E241E"/>
+    <!-- Body -->
+    <path d="M275 220 C275 190 365 190 365 220 L370 380 L270 380 Z" fill="url(#manGreen)" stroke="#1E1A0E" stroke-width="3"/>
+    <!-- Arms holding harvest crate -->
+    <path d="M280 230 C290 270 310 300 330 320" stroke="#A86840" stroke-width="20" stroke-linecap="round"/>
+    <path d="M360 230 C355 270 340 300 330 320" stroke="#A86840" stroke-width="20" stroke-linecap="round"/>
+    <!-- Wooden Crate with Harvest -->
+    <rect x="290" y="275" width="135" height="55" rx="6" fill="url(#woodCrate)" stroke="#1E1A0E" stroke-width="3"/>
+    <line x1="290" y1="302" x2="425" y2="302" stroke="#684221" stroke-width="2"/>
+    <!-- Vegetables in Crate -->
+    <ellipse cx="320" cy="275" rx="14" ry="12" fill="#588157"/>
+    <ellipse cx="345" cy="272" rx="15" ry="13" fill="#E76F51"/>
+    <ellipse cx="370" cy="274" rx="16" ry="12" fill="#2A9D8F"/>
+    <ellipse cx="395" cy="273" rx="13" ry="11" fill="#E9C46A"/>
+    <circle cx="330" cy="265" r="9" fill="#F4A261"/>
+    <circle cx="360" cy="263" r="8" fill="#E76F51"/>
+    <circle cx="385" cy="264" r="8.5" fill="#40916C"/>
+  </g>
+
+  <!-- Person 3: Senior Woman in Lilac Saree (Center-Right) -->
+  <g id="person3-elder-woman" filter="url(#softShadow)">
+    <!-- Saree Body -->
+    <path d="M475 250 C445 300 440 390 440 490 L525 490 C530 400 520 310 495 250 Z" fill="url(#elderPurple)" stroke="#1E1A0E" stroke-width="3"/>
+    <!-- Arm receiving fresh produce -->
+    <path d="M470 270 C440 285 410 295 380 305" stroke="#C48862" stroke-width="16" stroke-linecap="round"/>
+    <!-- Head & Gray Hair -->
+    <circle cx="495" cy="165" r="30" fill="#C48862"/>
+    <path d="M470 160 C470 130 520 130 525 160 C525 180 505 190 475 180 Z" fill="#D8D4D0"/>
+    <circle cx="530" cy="170" r="12" fill="#D8D4D0"/> <!-- Bun -->
+  </g>
+
+  <!-- Person 4: Man in Yellow/Mustard Kurta (Right) -->
+  <g id="person4-man-yellow" filter="url(#softShadow)">
+    <!-- Head & Beard -->
+    <circle cx="595" cy="155" r="32" fill="#9C623B"/>
+    <path d="M570 145 C580 115 620 115 625 140 C625 155 605 165 575 155 Z" fill="#2E241E"/>
+    <path d="M575 165 C585 185 615 185 620 165 Z" fill="#2E241E"/> <!-- Beard -->
+    <!-- Kurta Body -->
+    <path d="M540 230 C540 200 645 200 645 230 L645 490 L540 490 Z" fill="url(#manYellow)" stroke="#1E1A0E" stroke-width="3"/>
+    <!-- Arm holding vegetable basket -->
+    <path d="M565 245 C545 285 520 325 500 355" stroke="#9C623B" stroke-width="18" stroke-linecap="round"/>
+    <!-- Wicker Basket with Vegetables -->
+    <ellipse cx="495" cy="380" rx="42" ry="24" fill="#C68B59" stroke="#1E1A0E" stroke-width="3"/>
+    <path d="M460 380 C465 415 525 415 530 380" fill="#9A6335" stroke="#1E1A0E" stroke-width="2"/>
+    <!-- Veggies in basket -->
+    <circle cx="480" cy="375" r="10" fill="#E63946"/>
+    <circle cx="498" cy="372" r="12" fill="#2A9D8F"/>
+    <circle cx="516" cy="376" r="11" fill="#E76F51"/>
+    <ellipse cx="495" cy="365" rx="8" ry="12" fill="#52B788"/>
+  </g>
+
+  <!-- Ground Crates and Baskets at Base -->
+  <g id="ground-produce" filter="url(#softShadow)">
+    <!-- Wooden Crate on ground -->
+    <rect x="230" y="360" width="125" height="58" rx="6" fill="url(#woodCrate)" stroke="#1E1A0E" stroke-width="3"/>
+    <line x1="230" y1="389" x2="355" y2="389" stroke="#684221" stroke-width="2"/>
+    <circle cx="255" cy="355" r="13" fill="#E63946"/>
+    <circle cx="278" cy="352" r="14" fill="#E76F51"/>
+    <circle cx="302" cy="354" r="13" fill="#52B788"/>
+    <circle cx="325" cy="353" r="14" fill="#E9C46A"/>
+    <circle cx="268" cy="342" r="10" fill="#D62828"/>
+    <circle cx="290" cy="340" r="11" fill="#2D6A4F"/>
+    <circle cx="312" cy="341" r="10.5" fill="#F4A261"/>
+
+    <!-- Second Basket on ground -->
+    <ellipse cx="395" cy="390" rx="35" ry="20" fill="#D4A373" stroke="#1E1A0E" stroke-width="2.5"/>
+    <path d="M365 390 C370 425 420 425 425 390" fill="#B07D4F" stroke="#1E1A0E" stroke-width="2"/>
+    <circle cx="385" cy="385" r="9" fill="#E63946"/>
+    <circle cx="400" cy="384" r="10" fill="#40916C"/>
+    <circle cx="412" cy="386" r="9" fill="#F4A261"/>
+  </g>
+</svg>
